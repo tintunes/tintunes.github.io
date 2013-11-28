@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://tintunes.github.io/atom.xml" rel="self"/>
-  <link href="http://tintunes.github.io/"/>
-  <updated>2013-11-28T15:06:36+04:00</updated>
-  <id>http://tintunes.github.io/</id>
+  <title><![CDATA[Nice handmade ringtones]]></title>
+  <link href="http://tintun.es/atom.xml" rel="self"/>
+  <link href="http://tintun.es/"/>
+  <updated>2013-11-28T15:16:43+04:00</updated>
+  <id>http://tintun.es/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://tintunes.github.io/sitemap.xml 
+Sitemap: http://tintun.es/sitemap.xml 
