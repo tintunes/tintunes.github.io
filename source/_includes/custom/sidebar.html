@@ -5,25 +5,26 @@
   </div>
 </aside>
 
-<ul id="menu">
 {% if site.title %}
-  <li class="title">
-    <h1 id="title"><a href="{{ root_url }}/">{{ site.title }}</a></h1>
-  </li>
+  <h1 id="title"><a href="{{ root_url }}/">{{ site.title }}</a></h1>
 {% endif %}
 {% if site.subtitle %}
-  <li class="subtitle">
-    <h2 id="subtitle">{{ site.subtitle }}</h2>
-  </li>
+  <h2 id="subtitle">{{ site.subtitle }}</h2>
 {% endif %}
+
+<br><br>
+{% if site.twitter_user %}
+  <a href="http://twitter.com/{{ site.twitter_user }}"><img src="/images/twitter_icon.png"><font color="55acee" size="5px">@tintunes</font></a>
+{% endif %}
+
+{% if site.facebook_pagename %}
+  {% include asides/likebox.html %}
+{% endif %}
+
+<ul id="menu">
 {% if false %}
   <li>
     <ul id="category-list">{% category_list counter:true %}</ul>
-  </li>
-{% endif %}
-{% if site.twitter_user %}
-  <li class="link">
-    <a href="http://twitter.com/{{ site.twitter_user }}/">twitter</a>
   </li>
 {% endif %}
 {% if site.github_user and site.github_show_profile_link %}
@@ -48,6 +49,7 @@
 {% endif %}
 
 <!-- Octopress Love -->
+<!--
 <aside id="octopress_linkback">
   <a href="http://octopress.org/">
     <span class="unicode_square">
@@ -58,3 +60,4 @@
     <small><span class="octopress">Powered by Octopress</span></small>
   </a>
 </aside>
+-->
