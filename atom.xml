@@ -4,11 +4,7 @@
   <title><![CDATA[Nice handmade ringtones]]></title>
   <link href="http://tintun.es/atom.xml" rel="self"/>
   <link href="http://tintun.es/"/>
-<<<<<<< HEAD
   <updated>2013-11-29T12:30:13+04:00</updated>
-=======
-  <updated>2013-11-28T15:16:43+04:00</updated>
->>>>>>> 3570d2420be323350062afc7b2efb104fb36bcf1
   <id>http://tintun.es/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -17,7 +13,6 @@
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
-<<<<<<< HEAD
   <entry>
     <title type="html"><![CDATA[Tintune #10]]></title>
     <link href="http://tintun.es/tintune-0010/"/>
@@ -148,6 +143,4 @@
 ]]></content>
   </entry>
   
-=======
->>>>>>> 3570d2420be323350062afc7b2efb104fb36bcf1
 </feed>
