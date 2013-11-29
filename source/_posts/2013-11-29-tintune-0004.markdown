@@ -7,5 +7,5 @@ comments: true
 categories: ["Piano"]
 ---
 {% soundcloud http://soundcloud.com/tintunes/tintune-4 show_artwork=false show_user=false %}
-[![iPhone ringtone](/images/iphone_icon.png)](/download/tintune_0004.m4r)
-[![MP3 ringtone](/images/mp3_icon.png)](/download/tintune_0004.mp3)
+[![iPhone ringtone](/images/iphone_icon.png)](http://tintunes.s3-website-eu-west-1.amazonaws.com/download/tintune_0004.m4r)
+[![MP3 ringtone](/images/mp3_icon.png)](http://tintunes.s3-website-eu-west-1.amazonaws.com/download/tintune_0004.mp3)
