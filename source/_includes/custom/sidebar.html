@@ -16,6 +16,9 @@
     <h2 id="subtitle">{{ site.subtitle }}</h2>
   </li>
 {% endif %}
+  <li>
+    <ul id="category-list">{% category_list counter:true %}</ul>
+  </li>
 {% if site.twitter_user %}
   <li class="link">
     <a href="http://twitter.com/{{ site.twitter_user }}/">twitter</a>
@@ -26,9 +29,11 @@
     <a href="http://github.com/{{ site.github_user }}/">github</a>
   </li>
 {% endif %}
+{% if false %}
   <li class="link rss">
     <a href="/atom.xml">rss feed</a>
   </li>
+{% endif %}
 </ul>
 
 {% if site.simple_search %}
@@ -48,6 +53,6 @@
         &nbsp;
       </span>
     </span>
-    <span class="octopress">Powered by Octopress</span>
+    <small><span class="octopress">Powered by Octopress</span></small>
   </a>
 </aside>

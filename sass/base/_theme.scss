@@ -56,6 +56,10 @@ ul#menu a {
   color: #999;
 }
 
+ul#menu ul#category-list li {
+  margin-bottom: 0px;
+}
+
 #octopress_linkback {
   background-color: rgba(255, 255, 255, 0.7);
 }
