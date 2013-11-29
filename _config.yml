@@ -31,7 +31,7 @@ source: source
 destination: public
 plugins: plugins
 code_dir: downloads/code
-category_dir: categories
+category_dir: tag
 markdown: rdiscount
 rdiscount:
   extensions:
