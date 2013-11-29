@@ -1,0 +1,11 @@
+---
+layout: post
+author: "stakanviski"
+title: "Tintune #7"
+date: 2013-11-29 12:00:00 +0400
+comments: true
+categories: ["Piano"]
+---
+{% soundcloud http://soundcloud.com/tintunes/tintune-7 show_artwork=false show_user=false %}
+[![iPhone ringtone](/images/iphone_icon.png)](/download/tintune_0007.m4r)
+[![MP3 ringtone](/images/mp3_icon.png)](/download/tintune_0007.mp3)
